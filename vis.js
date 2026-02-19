@@ -63,10 +63,6 @@ function drawBarChart() {
 
   const svg = createSVG(width, height);
 
-  // Title
-  addText(svg, 24, 40, "Top 10 Artists by Listening Hours", 18);
-  addText(svg, 24, 64, "Example data. SVG generated with JavaScript.", 12);
-
   
   data.forEach((d, i) => {
   const y = paddingTop + i * (barHeight + barGap);
